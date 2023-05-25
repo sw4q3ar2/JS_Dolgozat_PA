@@ -1,0 +1,16 @@
+article{
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+}
+
+div:nth-child(odd) {
+    background: rgb(110, 107, 107);
+  }
+
+.Cella{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+}
